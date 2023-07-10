@@ -61,20 +61,23 @@ padding-bottom: 183px;
 }
 .fon-conteiner{
     display: flex;
-
   justify-content: center;
   gap: 130px;
-  padding: 130px 0  0;
- 
+  border:solid #8E32C6 5px;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 25px 50px;
+  
 }
-.text{color: #FFF;
+.text{
+    color: #FFF;
     text-align: center;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display',serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    display: flex;
+    
     
 }
     
@@ -82,5 +85,26 @@ padding-bottom: 183px;
     width: 240px;
 height: 240px;
 flex-shrink: 0;
-
 }
+.fon-class:nth-child(2){
+    position: relative;
+    
+}
+.fon-class:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 346px;
+    background-color: #fff;
+    right: -95px;
+    top: 0;
+}
+.fon-class:nth-child(2)::before{
+    content: "";
+  position: absolute;
+  width: 1px;
+  height: 346px;
+  background-color: #fff;
+  left: -95px;
+}
+
