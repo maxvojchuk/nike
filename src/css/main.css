@@ -1,37 +1,86 @@
 .colorawe{
 font-size: 144px;
 font-family: "Plaifair Display",serif; 
-
 }
 .dream{
  color: #FFF;
-font-family: Playfair "Display",serif;
+font-family:' Playfair Display',serif;
 font-size: 72px;
-font-style: normal;
+
 font-weight: 400;
-line-height: normal;
 
 
+margin-bottom: 20px;
  }
 .bakground{
 background: url(/src/images/Group\ 37\ \(1\)\ 1.svg);
 background-repeat: no-repeat;
-width: 1440px;
-height: 858px;
+background-size: cover;
+padding-top: 95px;
+padding-bottom: 183px;
 
 }
 .buy{
-width: 254px;
-height: 67px;
-flex-shrink: 0;
 border-radius: 10px;
 background: #8E32C6;
 padding: 19px 61px;
-
+display: inline-block;
 }
-p{
+.bakground-text{
     color: #FFF;
-font-family: Roboto;
+font-family: 'Roboto', serif;
 max-width: 508px;
 max-height: 84px;
+
+}
+.bakground-container{
+    width: 1107px;
+    margin: 0 auto;
+    }
+    .bakground-container::before{
+       content: '';
+        width: 160px;
+        height: 135px;
+        display: block;
+        background-image: url(/src/images/ed69f7fa91929ff49ecafac2bfd72360\ 1.svg),url(/src/images/С&R.svg);
+        background-repeat: no-repeat,no-repeat;
+        background-position: top,bottom;
+        }
+
+
+
+
+
+
+
+.fon{
+    background-image: url(/src/images/Group\ 8\ 1\ \(1\).svg);
+    background-size: cover;
+padding-top: 95px;
+padding-bottom: 183px;
+}
+.fon-conteiner{
+    display: flex;
+
+  justify-content: center;
+  gap: 130px;
+  padding: 130px 0  0;
+ 
+}
+.text{color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    
+}
+    
+.foto{
+    width: 240px;
+height: 240px;
+flex-shrink: 0;
+
 }
