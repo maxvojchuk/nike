@@ -1,0 +1,106 @@
+.Reviews {
+    background: url(/src/images/Group\ 6\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    height: 520px;
+    position: relative;
+}
+.reviews-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content-review{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+}
+
+.rev{
+    padding-top: 49px;
+    padding-bottom: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.review-1 {
+    border-radius: 15px;
+    background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    width: 255px;
+    height: 292px;
+}
+.rev-text {
+    color: #FFF;
+    font-family: 'Roboto',serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.rev-time {
+    margin-top: 8px;
+    color: #D8D8D8;
+    font-family: 'Roboto',serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.rev-author {
+    display: flex;
+    margin-left: 18px;
+}
+.rev-author:nth-child(1){
+    margin-left: 13px;
+}
+.info-author{
+    margin-left: 5px;
+}
+.author-FullName {
+    color: #FFF;
+    font-family: 'Roboto',serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.textOfReviews{
+    margin-left: 18px;
+}
+.textOfReviews:nth-child(1){
+    margin-left: 13px;
+}
+.author-time {
+    color: #D8D8D8;
+    font-family: 'Roboto',serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.review-2 {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+}
+.review-3 {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+}
+.flowers {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
