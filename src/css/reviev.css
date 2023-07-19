@@ -1,12 +1,19 @@
 .reviews {
- background-color: #001c3e;
- background-image:radial-gradient(circle at right bottom,  rgb(15, 140, 175) 15%,  #012d6350  35%);
+  background-color: #001c3e;
   background-position: center;
-  background-size: cover;
+  border-top: solid#fff 2px;
+  border-bottom: solid#fff 2px;
+  background-image: url(/src/images/цветы\ 2\ 1.png),
+    radial-gradient(
+      circle at right bottom,
+      rgb(15, 140, 175) 10%,
+      #012d6350 28%
+    );
   height: 520px;
-  position: relative;
-  
-} 
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-position: 0% 100%;
+}
 .reviews-title {
   color: #fff;
   text-align: center;
@@ -46,7 +53,7 @@
 }
 .rev-text {
   color: #fff;
-  font-family: "Roboto", serif;
+
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -55,7 +62,7 @@
 .rev-time {
   margin-top: 8px;
   color: #d8d8d8;
-  font-family: "Roboto", serif;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -73,7 +80,7 @@
 }
 .author-FullName {
   color: #fff;
-  font-family: "Roboto", serif;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -87,7 +94,7 @@
 }
 .author-time {
   color: #d8d8d8;
-  font-family: "Roboto", serif;
+
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -118,7 +125,7 @@
     #ff8381 63.29%,
     #ff5489 100%
   );
-  box-shadow: 0px 14px 0px -5px #b95a4c,0px 30px 0px -13px #732f26;
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
 }
 .flowers {
   position: absolute;
