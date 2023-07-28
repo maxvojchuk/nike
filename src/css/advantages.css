@@ -1,13 +1,16 @@
 .advantages {
   background-color: #001c3e;
-  background-image: radial-gradient(circle at left top,
-  rgb(88,3,88) 15%,
-  #02326c50 35%),
-  radial-gradient(circle at right bottom, 
-   rgb(15,140,175) 15%,
-   #012d6350 35%) ;
-  padding-top: 95px;
-  padding-bottom: 183px;
+  background-image: radial-gradient(
+      circle at left top,
+      rgb(88, 3, 88) 15%,
+      #02326c50 35%
+    ),
+    radial-gradient(
+      circle at right bottom,
+      rgb(15, 140, 175) 15%,
+      #012d6350 35%
+    );
+  padding: 105px;
 }
 .advantages-conteiner {
   display: flex;

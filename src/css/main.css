@@ -9,7 +9,7 @@
   font-weight: 400;
   margin-bottom: 20px;
 }
-.bakground {
+.main-page {
   background: url(/src/images/bacgraund_main.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,22 +23,21 @@
   display: inline-block;
   margin-top: 41px;
 }
-.bakground-text {
+.main-page-text {
   color: #fff;
 
   max-width: 508px;
 }
-.bakground-container {
+.main-page-container {
   width: 1107px;
   margin: 0 auto;
 }
-.bakground-container::before {
+.main-page-container::before {
   content: "";
   width: 160px;
   height: 135px;
   display: block;
-  background-image: url(/src/images/logo\ 1.svg ),
-    url(/src/images/c&r.svg);
+  background-image: url(/src/images/logo\ 1.svg), url(/src/images/c&r.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
 }
